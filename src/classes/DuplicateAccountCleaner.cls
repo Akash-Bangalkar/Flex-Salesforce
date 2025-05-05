@@ -1,7 +1,7 @@
 public class DuplicateAccountCleaner {
 
     public void deleteDuplicateAccounts() {
-        // Step 1: Query all Accounts sorted by Name and created date.
+        // Step 1: Query all Accounts sorted by Name and created date
         List<Account> accounts = [SELECT Id, Name FROM Account ORDER BY Name, CreatedDate ASC];
         
         // Step 2: Map to track duplicate Account Names
