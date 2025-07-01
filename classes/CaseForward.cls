@@ -25,4 +25,11 @@ public class CaseForward {
     {
         return [SELECT ID, Name FROM Contact WHERE ID IN :conId LIMIT 1];
     }
+    
+    public static void groupMerge()
+    {
+        Case_Report__c CRS = new Case_Report__c();
+        
+        Insert CRS;
+    }
 }
