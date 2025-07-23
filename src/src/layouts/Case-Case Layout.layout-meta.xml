@@ -315,6 +315,11 @@
             <posY>0</posY>
         </summaryLayoutItems>
         <summaryLayoutItems>
+            <field>Status</field>
+            <posX>2</posX>
+            <posY>0</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
             <field>CreatedDate</field>
             <posX>1</posX>
             <posY>1</posY>
@@ -328,11 +333,6 @@
             <field>Description</field>
             <posX>1</posX>
             <posY>3</posY>
-        </summaryLayoutItems>
-        <summaryLayoutItems>
-            <field>Status</field>
-            <posX>2</posX>
-            <posY>0</posY>
         </summaryLayoutItems>
         <summaryLayoutItems>
             <field>Priority</field>
