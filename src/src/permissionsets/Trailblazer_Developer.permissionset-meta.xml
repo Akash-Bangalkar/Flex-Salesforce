@@ -13,4 +13,12 @@
         <object>Waypoint__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabSettings>
+        <tab>standard-Document</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-Solution</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>

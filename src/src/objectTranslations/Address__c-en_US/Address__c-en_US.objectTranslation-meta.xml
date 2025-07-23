@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>Addresses</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Address_fields --></label>
+        <name>firelds</name>
+    </fieldSets>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
