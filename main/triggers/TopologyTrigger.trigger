@@ -1,4 +1,4 @@
-trigger TopologyTrigger on Topology__c (before insert, before update) {
+trigger TopologyTrigger on Topology__c (before insert, before update, before delete) {
 	if (trigger.isBefore)
     {
         if (trigger.isInsert)
