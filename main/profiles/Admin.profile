@@ -4514,6 +4514,11 @@
       <field>WorkTypeGroup.IsActive</field>
       <readable>true</readable>
    </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>FlexDeploy__c.Is_Active__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
    <flowAccesses>
       <enabled>false</enabled>
       <flow>Close_Change_Request</flow>
@@ -6509,6 +6514,10 @@
    </tabVisibilities>
    <tabVisibilities>
       <tab>Truecaller__c</tab>
+      <visibility>DefaultOn</visibility>
+   </tabVisibilities>
+   <tabVisibilities>
+      <tab>FlexDeploy__c</tab>
       <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <userLicense>Salesforce</userLicense>
