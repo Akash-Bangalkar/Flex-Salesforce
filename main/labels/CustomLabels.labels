@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Blueprints</fullName>
+        <categories>ProjectTypes</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Blueprints</shortDescription>
+        <value>Salesforce
+OIC
+Azure</value>
+    </labels>
+    <labels>
+        <fullName>FD_Flex</fullName>
+        <categories>Project</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FD Flex</shortDescription>
+        <value>Sandbox
+Production</value>
+    </labels>
+    <labels>
+        <fullName>FD_SFDX</fullName>
+        <categories>Salesforce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FD SFDX</shortDescription>
+        <value>Metadata
+Salesforce DX</value>
+    </labels>
+    <labels>
+        <fullName>New_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>New Label</shortDescription>
+        <value>FormattedText
+RichText
+MultiSpace</value>
+    </labels>
+    <labels>
+        <fullName>Outlook</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Outlook</shortDescription>
+        <value>Quick Access</value>
+    </labels>
+</CustomLabels>
