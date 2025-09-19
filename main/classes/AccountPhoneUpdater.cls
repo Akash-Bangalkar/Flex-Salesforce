@@ -25,4 +25,14 @@ public class AccountPhoneUpdater {
         // Update the Accounts in the database
         update accountsToUpdate;
     }
+    
+    // CustomLabel Testing
+    public static void customLabelTesting()
+    {
+        String labelValue = System.Label.PackageXml;
+        System.debug('The value of MyCustomLabel is: ' + labelValue);
+        
+        String labelValue2 = System.Label.Jabra;
+        System.debug('The value of MyCustomLabel is: ' + labelValue2);
+    }
 }
