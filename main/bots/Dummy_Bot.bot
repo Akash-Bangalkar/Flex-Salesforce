@@ -9,36 +9,6 @@
         <name>Dummy_Bot</name>
     </botMlDomain>
     <botSource>None</botSource>
-    <contextVariables>
-        <dataType>Text</dataType>
-        <developerName>ChatKey</developerName>
-        <includeInPrompt>false</includeInPrompt>
-        <label>Chat Key</label>
-    </contextVariables>
-    <contextVariables>
-        <dataType>Id</dataType>
-        <developerName>ContactId</developerName>
-        <includeInPrompt>false</includeInPrompt>
-        <label>Contact Id</label>
-    </contextVariables>
-    <contextVariables>
-        <dataType>Id</dataType>
-        <developerName>EndUserId</developerName>
-        <includeInPrompt>false</includeInPrompt>
-        <label>End User Id</label>
-    </contextVariables>
-    <contextVariables>
-        <dataType>Id</dataType>
-        <developerName>RoutableId</developerName>
-        <includeInPrompt>false</includeInPrompt>
-        <label>Routable Id</label>
-    </contextVariables>
-    <description>A bot from scratch.</description>
-    <label>Dummy Bot</label>
-    <logPrivateConversationData>false</logPrivateConversationData>
-    <richContentEnabled>false</richContentEnabled>
-    <sessionTimeout>0</sessionTimeout>
-    <type>Bot</type>
     <botVersions>
         <fullName>v1</fullName>
         <articleAnswersGPTEnabled>false</articleAnswersGPTEnabled>
@@ -196,4 +166,34 @@
         <stopWelcomePrompts>false</stopWelcomePrompts>
         <surfacesEnabled>false</surfacesEnabled>
     </botVersions>
+    <contextVariables>
+        <dataType>Text</dataType>
+        <developerName>ChatKey</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Chat Key</label>
+    </contextVariables>
+    <contextVariables>
+        <dataType>Id</dataType>
+        <developerName>ContactId</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Contact Id</label>
+    </contextVariables>
+    <contextVariables>
+        <dataType>Id</dataType>
+        <developerName>EndUserId</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>End User Id</label>
+    </contextVariables>
+    <contextVariables>
+        <dataType>Id</dataType>
+        <developerName>RoutableId</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Routable Id</label>
+    </contextVariables>
+    <description>A bot from scratch.</description>
+    <label>Dummy Bot</label>
+    <logPrivateConversationData>false</logPrivateConversationData>
+    <richContentEnabled>false</richContentEnabled>
+    <sessionTimeout>0</sessionTimeout>
+    <type>Bot</type>
 </Bot>
