@@ -19,11 +19,4 @@ public class AccountRevenueUpdater {
         
         // Developer 2 - feature/CH19003
     }
-    
-    // CustomLabel Testing
-    public static void customLabelTesting()
-    {
-        String labelValue = System.Label.Jabra;
-        System.debug('The value of MyCustomLabel is: ' + labelValue);
-    }
 }
